@@ -11,6 +11,7 @@
   }
   
   body {
+    text-align: center;
     background-color: #000000;
   }
   
@@ -30,6 +31,7 @@
   
   img {
     width: 80%;
+    padding-bottom: 100px;
   }
   
   footer {
@@ -38,4 +40,15 @@
     text-align: center;
     font-family: 'Indie Flower', cursive;
   }
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
   

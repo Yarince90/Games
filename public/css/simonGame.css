@@ -10,14 +10,14 @@ body {
     color: #FEF2BF;
   }
   
-  .container {
+  .customContainer {
     display: block;
     width: 50%;
     margin: auto;
   
   }
   
-  .btn {
+  .styledBtn {
     margin: 25px;
     display: inline-block;
     height: 200px;
@@ -27,7 +27,7 @@ body {
   }
   
   .game-over {
-    background-color: red;
+    background-color: rgb(190, 4, 4);
     opacity: 0.8;
   }
   
@@ -52,3 +52,13 @@ body {
     background-color: grey;
   }
   
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

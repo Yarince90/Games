@@ -35,7 +35,7 @@
     }
 
     //Determines button clicked and adds animation and sound to it
-    $(".btn").click(function(e){
+    $(".styledBtn").click(function(e){
         makeSound(e.target.id);
         buttonAnimation(e.target.id);
         
