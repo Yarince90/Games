@@ -62,3 +62,7 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+
+footer{
+  padding-top: 50px;
+}

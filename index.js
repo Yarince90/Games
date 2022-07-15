@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 app.use(express.static("games"));
 
-app.get('/',(req, res)=>{
+app.get('/', (req, res)=>{
     res.render('home.ejs');
 });
 
@@ -22,6 +22,7 @@ app.get('/drumKit', (req, res)=>{
 app.get('/diceGame', (req, res)=>{
     res.render('diceGame');
 });
+
 
 app.listen(port, ()=> {
     console.log("Server started on port: " + port);

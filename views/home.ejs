@@ -1,5 +1,14 @@
 <%- include('partials/header'); -%>
 
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Games</h1>
+            <p class="lead text-muted">Below are some very simple games / apps I made while learning and as practice.</p>
+        </div>
+    </div>
+</section>
+
     <div class="album py-5 bg-light">
         <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -8,7 +17,10 @@
             <div class="card shadow-sm">
                 <img class="thumbnailIMG" src="/images/SimonGame.png" alt="SimonGame" />
                 <div class="card-body">
-                <p class="card-text">Simon Game</p>
+                <p class="card-text">Simon Game <span id="expandText1">...Show More</span> <span id="hiddenText1" hidden > This is a game created with JavaScript, it uses the Math library to create a random number between 1 and 4 and assigns it to a colored square, 
+                    it then adds the result to an array. The player must then remember the randomly generated sequence of the squares by color and enter the sequence from the beginning in each level.
+                    The sequence entered by the user is then added to a new array which is compared against the randomly generated array and if it matches the player goes on to the next level,
+                    however if it does not match the game is over and both arrays get reset. </span> <span id="shrinkText1" hidden > Show Less</span></p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="col-md-12 text-center">
                     <button type="button" class="btn btn-primary btn-lg btn-danger"><a href="/simonGame">Click Here To Play</a></button>
@@ -22,7 +34,8 @@
             <div class="card shadow-sm">
             <img class="thumbnailIMG" src="/images/DrumKit.png" alt="Drum Kit" />
                 <div class="card-body">
-                <p class="card-text">Drum Kit</p>
+                <p class="card-text">Drum Kit <span id="expandText2">...show more</span> <span id="hiddenText2" hidden > This is a digital drum kit created with Java Script which allows the user to either click on one of the buttons to play the corresponding sound 
+                    or press on the corresponding keyboard key to play the sound. </span> <span id="shrinkText2" hidden > Show Less</span></p>
                 <div class="d-flex justify-content-between align-items-center">
                 <div class="col-md-12 text-center">
                     <button type="button" class="btn btn-primary btn-lg btn-danger"><a href="/drumKit">Click Here To Play</a></button>
@@ -36,7 +49,8 @@
             <div class="card shadow-sm">
             <img class="thumbnailIMG" src="/images/DiceGame.png" alt="Dice Roll" />
                 <div class="card-body">
-                <p class="card-text">Dice Game</p>
+                <p class="card-text">Dice Game <span id="expandText3">...show more</span> <span id="hiddenText3" hidden > This is a game created with Java Script which randomly generates two numbers from 1 - 6, loads the corresponding dice image 
+                    and then compares both numbers to see which one is the higher one to determine the winner. </span> <span id="shrinkText3" hidden > Show Less</span></p>
                 <div class="d-flex justify-content-between align-items-center">
                 <div class="col-md-12 text-center">
                     <button type="button" class="btn btn-primary btn-lg btn-danger"><a href="/diceGame">Click Here To Play</a></button>
@@ -48,4 +62,8 @@
             </div>
             </div>
         </div>
+
+          <!--Load homeFunctions js file-->
+          <script type="text/javascript" src="/homeFunctions.js" charset="utf-8"></script>
+
       <%- include('partials/footer'); -%>

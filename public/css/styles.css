@@ -22,3 +22,7 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+#expandText1, #expandText2, #expandText3, #shrinkText1, #shrinkText2, #shrinkText3 {
+  cursor: pointer;
+  color:blue
+}
