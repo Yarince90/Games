@@ -1,6 +1,6 @@
 # Games
 
-This is a page where I will be implementing most of my web games and web apps I've worked on while learning how to code.
+This is a page where I will be adding most of the web games and web apps I've worked on while learning how to code.
 
 ![image](https://user-images.githubusercontent.com/59423827/179250539-919165b9-dc88-4844-8c7a-faa7d6e9c7d7.png)
 
